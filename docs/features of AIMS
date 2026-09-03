@@ -1,0 +1,66 @@
+# AIMS feature inventory
+
+This document is the product-content source for the AIMS features page. Final availability depends on the modules, integrations, and custom work agreed for an institution.
+
+## AIMS academic and administrative modules
+
+### Admission management
+
+- Move an enquiry or application through review and approval stages.
+- Maintain applicant and student data cards.
+- Allocate transfer certificates through the defined workflow.
+
+### Course allocation
+
+- Capture student preferences.
+- Apply seat availability and reservation rules.
+- Run automated allotment based on the configured criteria.
+
+### Internal marks
+
+- Bring Moodle activity marks into the academic record.
+- Apply custom mark weightage.
+- Add marks from offline activities.
+
+### OBE and academic reporting
+
+- Map course outcomes, programme outcomes, and programme-specific outcomes.
+- Calculate attainment.
+- Prepare OBE and NAAC-related reporting workflows.
+
+### Timetables, attendance, and reporting
+
+- Manage student batches, academic years, and FYUGP course allocation.
+- Create department and class schedules.
+- Generate attendance sessions and record attendance on mobile devices.
+- Prepare AISHE and institutional activity reports.
+
+### Communication and integrations
+
+- Send WhatsApp notifications, including assignment and quiz reminders.
+- Integrate supported biometric attendance devices, including eSSL devices.
+- Discuss approved third-party integrations where they support an academic workflow.
+
+### Optional institutional modules
+
+- Parent or guardian access to selected attendance and grade information.
+- Library-management workflows.
+- Institution promotional-content uploads.
+
+## Moodle learning capabilities
+
+- Online courses, notes, learning resources, and tutorial sharing.
+- Assignments, assessments, and quizzes, including timed attempts and supported question types.
+- H5P interactive learning activities and interactive video lessons.
+- Live classes through BigBlueButton, Google Meet, or Zoom when included in the setup.
+- Course engagement, activity completion, and progress tracking.
+- Mobile access. Moodle’s official app can support offline course-content access when the Moodle site enables it.
+- Role-based access for administrators, teachers, and students.
+- Manual or self-registration where the institution’s enrolment process allows it.
+
+## Module and workflow approach
+
+- Select the modules your institution needs rather than adopting every module.
+- Configure approved workflows around current academic and administrative processes.
+- Reuse course materials across batches and academic years through Moodle courses.
+- Discuss custom modules, design changes, content-development support, and integrations as part of the project scope.

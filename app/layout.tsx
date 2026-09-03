@@ -6,11 +6,12 @@ import "./globals.css";
 const helveticaNeue = localFont({ src: "./fonts/HelveticaNeue-Bold.otf", variable: "--font-helvetica-neue", display: "swap" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ariiseglobal.com"),
   title: { default: "ARiiSE | Institutional LMS & Management Systems", template: "%s | ARiiSE" },
   description: "ARiiSE helps colleges and academies connect learning delivery with admissions, academic operations, attendance, reporting, and institutional management.",
   applicationName: "ARiiSE",
   keywords: ["institutional management system", "college LMS", "Moodle LMS", "education ERP", "AIMS"],
-  openGraph: { type: "website", locale: "en_IN", title: "ARiiSE | Institutional LMS & Management Systems", description: "AIMS connects Moodle-based learning with the academic workflows institutions manage every day." },
+  openGraph: { type: "website", locale: "en_IN", siteName: "ARiiSE", title: "ARiiSE | Institutional LMS & Management Systems", description: "AIMS connects Moodle-based learning with the academic workflows institutions manage every day." },
 };
 
 export const viewport: Viewport = { themeColor: "#f1efe8", colorScheme: "light" };
