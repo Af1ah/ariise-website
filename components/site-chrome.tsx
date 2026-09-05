@@ -85,11 +85,21 @@ function MobileNav() {
         </summary>
         <div className="mobile-nav-panel">
           <nav aria-label="Mobile navigation">
-            {navigation.map(([label, href]) => (
-              <Link href={href} key={href} onClick={closeMenu}>
-                {label}
-              </Link>
-            ))}
+            {navigation.map(([label, href]) => {
+              const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href);
+              return (
+                <Link
+                  href={href}
+                  key={href}
+                  className={isActive ? "is-active" : undefined}
+                  aria-current={isActive ? "page" : undefined}
+                  onClick={closeMenu}
+                >
+                  <span>{label}</span>
+                  {isActive && <span className="mobile-nav-active-dot" aria-hidden="true" />}
+                </Link>
+              );
+            })}
           </nav>
           <ArrowFillButton
             size="sm"
@@ -113,16 +123,26 @@ function MobileNav() {
 }
 
 export function SiteHeader() {
+  const pathname = usePathname();
+
   return (
     <div className="site-header-wrap">
       <header className="site-header">
         <Brand />
         <nav aria-label="Primary navigation" className="desktop-nav">
-          {navigation.map(([label, href]) => (
-            <Link href={href} key={href}>
-              {label}
-            </Link>
-          ))}
+          {navigation.map(([label, href]) => {
+            const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href);
+            return (
+              <Link
+                href={href}
+                key={href}
+                className={isActive ? "is-active" : undefined}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {label}
+              </Link>
+            );
+          })}
         </nav>
         <div className="desktop-cta justify-self-end">
           <ArrowFillButton size="sm" href="/contact" btnText="Request a Quote" />
