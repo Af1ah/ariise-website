@@ -2,7 +2,7 @@ import { ContactPage } from "@/components/contact-page";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Get in Touch | Contact ARiiSE",
+  title: "Get in Touch",
   description:
     "Contact ARiiSE at Varikoly Tower, UK Sankunni Rd, Kozhikode, Kerala 673001. Call +91 8147722711 or submit an enquiry to discuss AIMS modules and Moodle LMS implementation.",
   keywords: [
@@ -15,10 +15,18 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/contact" },
   openGraph: {
+    type: "website",
+    locale: "en_IN",
+    siteName: "ARiiSE",
     title: "Get in Touch | ARiiSE Institutional LMS & Management Systems",
     description:
       "Visit our office at Varikoly Tower, UK Sankunni Rd, Kozhikode, Kerala, or call +91 8147722711 to discuss your institution's academic platform.",
     url: "/contact",
+  },
+  twitter: {
+    card: "summary",
+    title: "Get in Touch | ARiiSE Institutional LMS & Management Systems",
+    description: "Contact ARiiSE to discuss your institution's learning and academic operations platform.",
   },
 };
 

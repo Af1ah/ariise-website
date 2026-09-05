@@ -5,7 +5,9 @@ export const metadata: Metadata = {
   title: "Terms and Conditions",
   description: "Terms and Conditions for ARiiSE platform, hosting, implementation, support, backups, upgrades, and related services.",
   alternates: { canonical: "/terms" },
-  openGraph: { title: "Terms and Conditions | ARiiSE", description: "The terms that govern ARiiSE services.", url: "/terms" },
+  robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+  openGraph: { type: "website", locale: "en_IN", siteName: "ARiiSE", title: "Terms and Conditions | ARiiSE", description: "The terms that govern ARiiSE services.", url: "/terms" },
+  twitter: { card: "summary", title: "Terms and Conditions | ARiiSE", description: "The terms that govern ARiiSE services." },
 };
 
 export default function TermsPage() {

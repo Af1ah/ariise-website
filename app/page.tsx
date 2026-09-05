@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   keywords: ["AIMS", "institutional LMS", "college management system", "Moodle-based learning", "education ERP", "academic operations"],
   alternates: { canonical: "/" },
   openGraph: {
+    type: "website",
+    locale: "en_IN",
+    siteName: "ARiiSE",
     title: "ARiiSE AIMS | Institutional LMS & Management System",
     description: "Connect learning, admissions, academics, attendance, and reporting in one institutional system.",
     url: "/",

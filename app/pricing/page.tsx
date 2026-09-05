@@ -5,7 +5,7 @@ import { SectionReveal } from "@/components/ui/section-reveal";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing & Custom Quotes | ARiiSE",
+  title: "Pricing & Custom Quotes",
   description:
     "Tiered institutional pricing is coming soon. Request sales for a custom quote tailored to your college or academy's scale, modules, and hosting requirements.",
   keywords: [
@@ -17,10 +17,18 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/pricing" },
   openGraph: {
+    type: "website",
+    locale: "en_IN",
+    siteName: "ARiiSE",
     title: "Pricing & Custom Quotes | ARiiSE Institutional LMS & Management Systems",
     description:
       "Tiered pricing is coming soon. Request sales for a tailored quote based on your institution's workflows and scale.",
     url: "/pricing",
+  },
+  twitter: {
+    card: "summary",
+    title: "Pricing & Custom Quotes | ARiiSE",
+    description: "Request a tailored quote based on your institution's workflows and scale.",
   },
 };
 
