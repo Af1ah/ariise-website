@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 
 const quoteFactors = [
   {
-    title: "Module Selection",
+    title: "Data Transition",
     description:
-      "Select only the AIMS modules your campus requires — from admissions and course allocation to OBE calculation and attendance.",
-    highlights: ["Scope only what you need", "No paying for unused modules", "Add modules as you grow"],
+      "Plan the move from existing records and learning materials into a structure your institution can operate with confidence.",
+    highlights: ["Migration planning", "Roles and account setup", "Academic-calendar preparation"],
   },
   {
     title: "Campus Scale",
@@ -40,14 +40,14 @@ const quoteFactors = [
   {
     title: "Deployment Model",
     description:
-      "Choose fully managed cloud hosting with automated backups or on-premise deployment on your own infrastructure.",
-    highlights: ["Secure managed cloud", "On-premise installation", "Routine updates & backups"],
+      "Choose ARiiSE-managed hosting or AWS, DigitalOcean, Hostinger, or a local vendor based on your institution’s requirements.",
+    highlights: ["Client-selected hosting vendor", "Managed or client-owned environment", "Routine updates & backups"],
   },
   {
-    title: "Implementation & Support",
+    title: "Course Content & Implementation",
     description:
-      "Includes migration of existing academic records, role configuration, teacher onboarding, and dedicated technical assistance.",
-    highlights: ["Data migration support", "Admin & faculty training", "Ongoing SLA maintenance"],
+      "Scope course-content creation or structuring alongside implementation, role configuration, teacher onboarding, and technical assistance.",
+    highlights: ["Course-content creation support", "Admin & faculty training", "Platform implementation"],
   },
 ];
 

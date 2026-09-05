@@ -30,7 +30,7 @@ This document is the approved service-content source for the ARiiSE website. Fin
 
 ## Deployment and ongoing care
 
-- Cloud or on-premise deployment discussion.
+- ARiiSE-managed hosting or AWS, DigitalOcean, Hostinger, and local-vendor deployment based on the institution’s requirements.
 - Hosting and backup planning.
 - Maintenance, upgrade, and technical-support arrangements.
 

@@ -140,6 +140,8 @@ export function SiteFooter() {
       <p>Institutional LMS & management systems for colleges and academies.</p>
       <div className="site-footer-links">
         <a href="mailto:info@ariiseglobal.com">info@ariiseglobal.com</a>
+        <Link href="/terms">Terms</Link>
+        <Link href="/privacy">Privacy</Link>
         <a
           href="https://www.linkedin.com/company/ariise-global"
           target="_blank"

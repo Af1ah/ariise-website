@@ -22,7 +22,7 @@ AIMS is described as an institutional management system built on Moodle. Existin
 | OBE Auto Calculator | CO–PO–PSO mapping, attainment calculations, NAAC-ready reporting. |
 | AISHE & Timetable | Statistical reporting, department/class scheduling, attendance-session generation. |
 | Attendance & WhatsApp | Mobile attendance, individual notifications, assignment and quiz reminders. |
-| Deployment & Care | Technical support, cloud/on-premise deployment, backups, upgrades, and institution-branded UI. |
+| Deployment & Care | Technical support, ARiiSE-managed hosting or AWS, DigitalOcean, Hostinger, and local-vendor deployment based on the institution’s requirements, backups, upgrades, and institution-branded UI. |
 
 ## Commercial content rules
 

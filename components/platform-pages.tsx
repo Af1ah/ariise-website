@@ -90,8 +90,8 @@ const serviceGroups: Feature[] = [
   },
   {
     title: "Hosting, backups, and upgrades",
-    description: "Discuss a deployment model and plan the operational work needed to keep the platform maintained.",
-    items: ["Cloud or on-premise deployment", "Backup planning", "Upgrade support"],
+    description: "Choose an ARiiSE-managed environment or a hosting vendor that fits your institution’s requirements, then plan the work needed to keep the platform maintained.",
+    items: ["AWS, DigitalOcean, Hostinger, or local vendor hosting", "Backup planning", "Upgrade support"],
   },
   {
     title: "Support and training",
@@ -102,7 +102,7 @@ const serviceGroups: Feature[] = [
 
 const serviceFaqs = [
   ["Who are these services for?", "ARiiSE works with colleges, academies, and other institutions that need a managed learning and academic operations platform."],
-  ["Can we host the platform on our own infrastructure?", "Deployment can be discussed for cloud or on-premise environments, based on your institution’s requirements."],
+  ["Can we choose our hosting provider?", "Yes. Hosting can be arranged through AWS, DigitalOcean, Hostinger, a local vendor, or your own infrastructure, based on your institution’s requirements."],
   ["Do you support existing Moodle sites?", "ARiiSE can review an existing Moodle site and discuss the right maintenance, upgrade, migration, or integration work."],
   ["What should we prepare before a discussion?", "Bring your current workflows, the modules you need, the systems you use today, and the teams who will operate the platform."],
 ];
